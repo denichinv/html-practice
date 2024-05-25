@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Informational Table</title>
+    <style>
+        html {
+            background-color: whitesmoke;
+        }
+
+        h1 {
+            background-color: rgb(99, 94, 94);
+            color: rgb(210, 200, 200);
+        }
+
+        ul {
+            color: rgb(88, 84, 84);
+        }
+
+        ul:hover {
+            translate: 10px;
+        }
+
+        table {
+            -webkit-transform: translate(25px, 25px);
+            border-collapse: collapse;
+            border-radius: 20px;
+            
+            width: 500px;
+            height: auto;
+        }
+
+        table:hover {
+            scale: 1.2;
+            translate: 20px;
+        }
+
+        td {
+            text-align: center;
+            vertical-align: middle;
+            font-style: oblique;
+            font-size: large;
+        }
+
+        .gray {
+            background-color: rgb(238, 234, 234);
+        }
+
+        th {
+            background-color: rgb(187, 163, 163);
+            font-size: 1.3em;
+        }
+
+        /*tr:nth-child(even){ background-color:lightblue;}*/
+    </style>
+</head>
+
+<body>
+    <h1>Country Information</h1>
+
+    <table border="3">
+        <tr>
+            <th>Flag</th>
+            <th>Country</th>
+            <th>Capital</th>
+            <th>Population</th>
+            <th> Language </th>
+            <th>Largest City</th>
+
+        </tr>
+        <tr>
+            <td><img src="./Flag_of_England.svg.png" alt="England Flag" title="England" style="height: 54px;"></td>
+            <td class="gray"><a href="https://en.wikipedia.org/wiki/England">England</a></td>
+            <td>London</td>
+            <td class="gray">56 Million</td>
+            <td>English</td>
+            <td class="gray">London</td>
+        </tr>
+        <tr>
+            <td><img src="./Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg.png" alt="United States Flag"
+                    title="United_States" style="height: 48px;"></td>
+            <td class="gray"><a href="https://en.wikipedia.org/wiki/United_States">United States</a></td>
+            <td>Washington</td>
+            <td class="gray">328 Million</td>
+            <td>English</td>
+            <td class="gray">New York</td>
+
+        </tr>
+        <tr>
+            <td><img src="./Flag_of_the_People's_Republic_of_China.svg.png" alt="China " title="China"
+                    style="height: 60px;"></td>
+            <td class="gray"><a href="https://en.wikipedia.org/wiki/China">China</a></td>
+            <td>Beijing</td>
+            <td class="gray">1.4 Billion</td>
+            <td>Chineese</td>
+            <td class="gray">Shanghai</td>
+        </tr>
+        <tr>
+            <td><img src="./Flag_of_India.svg.png" alt="India Flag" title="India" style="height: 60px;"></td>
+            <td class="gray"><a href="https://en.wikipedia.org/wiki/India">India</a></td>
+            <td>New Delhi</td>
+            <td class="gray">1.5 Billion</td>
+            <td>Hindi</td>
+            <td class="gray">Mumbai</td>
+        </tr>
+    </table>
+
+</body>
+
+
+</html>
